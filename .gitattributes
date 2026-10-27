@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.ppm binary
+*.pgm binary
+*.rgba binary
+*.onnx binary
+*.ort binary
+*.wasm binary
+*.tgz binary
+*.gz binary
+*.zip binary
+# The SDK manifest verifies exact bytes, including source line endings.
+browser/src/** -text
+browser/assets/** -text

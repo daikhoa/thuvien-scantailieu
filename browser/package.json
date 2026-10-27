@@ -1,0 +1,26 @@
+{
+  "name": "@docscan/browser",
+  "version": "0.2.0-78f36fa702c1",
+  "type": "module",
+  "description": "Local document scanning SDK: detection, C++ raster processing, shadow models and PDF.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./vite": "./vite.mjs",
+    "./internal/*": "./src/*.ts"
+  },
+  "files": [
+    "src",
+    "assets",
+    "assets.json",
+    "vite.mjs",
+    "README.md",
+    "licenses"
+  ],
+  "dependencies": {
+    "heic-to": "1.6.6",
+    "onnxruntime-web": "1.27.0",
+    "pdf-lib": "1.17.1",
+    "scanic": "1.6.0",
+    "scanic-ml": "0.2.0"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "policy": "paper-v1",
+  "note": "Additional restoration stage only. Unpaired real samples have no objective quality score; synthetic masks allow paper/ink statistics. Desktop timing is informational.",
+  "records": [
+    {
+      "name": "soft-text",
+      "kind": "synthetic",
+      "dimensions": {
+        "width": 720,
+        "height": 520
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 92.22000000000001,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "faint-text",
+      "kind": "synthetic",
+      "dimensions": {
+        "width": 720,
+        "height": 520
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 40.249300000000005,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "colored-cover",
+      "kind": "synthetic",
+      "dimensions": {
+        "width": 720,
+        "height": 520
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 113.54469999999998,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "paper-noise",
+      "kind": "synthetic",
+      "dimensions": {
+        "width": 720,
+        "height": 520
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 32.0659,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-datasheet001-frame-0001",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 243,
+        "height": 339
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 2.3653000000000475,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-datasheet001-frame-0054",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 245,
+        "height": 312
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 3.0077999999999747,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-datasheet001-frame-0108",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 221,
+        "height": 310
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.800299999999993,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-datasheet001-frame-0161",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 229,
+        "height": 324
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.9424999999999955,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-datasheet001-frame-0214",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 222,
+        "height": 311
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.8474999999999682,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-letter001-frame-0001",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 234,
+        "height": 329
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 2.0527000000000157,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-letter001-frame-0045",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 213,
+        "height": 293
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.651200000000017,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-letter001-frame-0089",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 204,
+        "height": 288
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.4305000000000518,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-letter001-frame-0132",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 204,
+        "height": 289
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.6240000000000236,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-letter001-frame-0176",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 210,
+        "height": 299
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.8035999999999603,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-magazine001-frame-0001",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 211,
+        "height": 294
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.7404999999999973,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-magazine001-frame-0050",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 203,
+        "height": 286
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.8132999999999129,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-magazine001-frame-0100",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 194,
+        "height": 270
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 1.4288999999999987,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-magazine001-frame-0149",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 211,
+        "height": 309
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 2.1345999999999776,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    },
+    {
+      "name": "smartdoc15-magazine001-frame-0198",
+      "kind": "ICDAR2015 SmartDoc, CC-BY-4.0; attribution in fixture manifest",
+      "dimensions": {
+        "width": 205,
+        "height": 294
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 2.2726000000000113,
+      "paperBefore": null,
+      "paperAfter": null,
+      "inkBefore": null,
+      "inkAfter": null
+    }
+  ]
+}

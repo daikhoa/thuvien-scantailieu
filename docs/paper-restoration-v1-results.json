@@ -1,0 +1,476 @@
+{
+  "schema": 1,
+  "policy": "paper-v1",
+  "note": "Synthetic exact-reference fixtures, single desktop Node process; median of five warm runs after two warmups. Not phone heat/power or universal image quality.",
+  "wasmSha256": "612e9b7d8c514388d5d385a2446fa8a0461bfb8fe7eb948c44c121ad5eb735ab",
+  "records": [
+    {
+      "kind": "white",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 220,
+        "rightPaper": 234,
+        "ink": 27
+      },
+      "webBefore": {
+        "leftPaper": 130,
+        "rightPaper": 242,
+        "ink": 1
+      },
+      "webAfter": {
+        "leftPaper": 229,
+        "rightPaper": 245,
+        "ink": 10
+      },
+      "opencvBefore": {
+        "leftPaper": 204,
+        "rightPaper": 234,
+        "ink": 33
+      },
+      "opencvAfter": {
+        "leftPaper": 213,
+        "rightPaper": 230,
+        "ink": 25
+      },
+      "timingMs": {
+        "webBefore": 5.182,
+        "webAfter": 17.836,
+        "cpp": 10.984,
+        "opencv": 16.56,
+        "opencvBefore": 16.725,
+        "cppBefore": 2.38
+      }
+    },
+    {
+      "kind": "warm",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 218,
+        "rightPaper": 233,
+        "ink": 27
+      },
+      "webBefore": {
+        "leftPaper": 131,
+        "rightPaper": 243,
+        "ink": 2
+      },
+      "webAfter": {
+        "leftPaper": 227,
+        "rightPaper": 244,
+        "ink": 11
+      },
+      "opencvBefore": {
+        "leftPaper": 208,
+        "rightPaper": 233,
+        "ink": 34
+      },
+      "opencvAfter": {
+        "leftPaper": 210,
+        "rightPaper": 229,
+        "ink": 25
+      },
+      "timingMs": {
+        "webBefore": 4.723,
+        "webAfter": 17.869,
+        "cpp": 12.047,
+        "opencv": 18.481,
+        "opencvBefore": 16.913,
+        "cppBefore": 1.877
+      }
+    },
+    {
+      "kind": "colored",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 135,
+        "rightPaper": 236,
+        "ink": 23
+      },
+      "webBefore": {
+        "leftPaper": 143,
+        "rightPaper": 248,
+        "ink": 1
+      },
+      "webAfter": {
+        "leftPaper": 143,
+        "rightPaper": 248,
+        "ink": 1
+      },
+      "opencvBefore": {
+        "leftPaper": 130,
+        "rightPaper": 239,
+        "ink": 21
+      },
+      "opencvAfter": {
+        "leftPaper": 130,
+        "rightPaper": 239,
+        "ink": 21
+      },
+      "timingMs": {
+        "webBefore": 4.933,
+        "webAfter": 9.21,
+        "cpp": 3.202,
+        "opencv": 8.386,
+        "opencvBefore": 7.317,
+        "cppBefore": 1.947
+      }
+    },
+    {
+      "kind": "pastel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 135,
+        "rightPaper": 236,
+        "ink": 23
+      },
+      "webBefore": {
+        "leftPaper": 138,
+        "rightPaper": 248,
+        "ink": 1
+      },
+      "webAfter": {
+        "leftPaper": 138,
+        "rightPaper": 248,
+        "ink": 1
+      },
+      "opencvBefore": {
+        "leftPaper": 202,
+        "rightPaper": 236,
+        "ink": 34
+      },
+      "opencvAfter": {
+        "leftPaper": 121,
+        "rightPaper": 240,
+        "ink": 17
+      },
+      "timingMs": {
+        "webBefore": 4.807,
+        "webAfter": 9.912,
+        "cpp": 2.971,
+        "opencv": 8.17,
+        "opencvBefore": 16.03,
+        "cppBefore": 1.938
+      }
+    },
+    {
+      "kind": "gray-panel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 220,
+        "rightPaper": 234,
+        "ink": 27
+      },
+      "webBefore": {
+        "leftPaper": 130,
+        "rightPaper": 242,
+        "ink": 1
+      },
+      "webAfter": {
+        "leftPaper": 229,
+        "rightPaper": 245,
+        "ink": 10
+      },
+      "opencvBefore": {
+        "leftPaper": 203,
+        "rightPaper": 233,
+        "ink": 33
+      },
+      "opencvAfter": {
+        "leftPaper": 212,
+        "rightPaper": 230,
+        "ink": 24
+      },
+      "timingMs": {
+        "webBefore": 4.564,
+        "webAfter": 17.351,
+        "cpp": 10.186,
+        "opencv": 15.788,
+        "opencvBefore": 16.857,
+        "cppBefore": 1.938
+      }
+    },
+    {
+      "kind": "gray-sidebar",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 76,
+        "rightPaper": 234,
+        "ink": 23
+      },
+      "webBefore": {
+        "leftPaper": 66,
+        "rightPaper": 242,
+        "ink": 2
+      },
+      "webAfter": {
+        "leftPaper": 66,
+        "rightPaper": 245,
+        "ink": 2
+      },
+      "opencvBefore": {
+        "leftPaper": 120,
+        "rightPaper": 234,
+        "ink": 32
+      },
+      "opencvAfter": {
+        "leftPaper": 78,
+        "rightPaper": 230,
+        "ink": 19
+      },
+      "timingMs": {
+        "webBefore": 4.557,
+        "webAfter": 16.993,
+        "cpp": 8.631,
+        "opencv": 15.435,
+        "opencvBefore": 15.959,
+        "cppBefore": 1.957
+      }
+    },
+    {
+      "kind": "color-panel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 220,
+        "rightPaper": 234,
+        "ink": 27
+      },
+      "webBefore": {
+        "leftPaper": 131,
+        "rightPaper": 242,
+        "ink": 1
+      },
+      "webAfter": {
+        "leftPaper": 229,
+        "rightPaper": 245,
+        "ink": 12
+      },
+      "opencvBefore": {
+        "leftPaper": 117,
+        "rightPaper": 232,
+        "ink": 17
+      },
+      "opencvAfter": {
+        "leftPaper": 212,
+        "rightPaper": 230,
+        "ink": 24
+      },
+      "timingMs": {
+        "webBefore": 4.77,
+        "webAfter": 17.252,
+        "cpp": 10.099,
+        "opencv": 15.145,
+        "opencvBefore": 7.336,
+        "cppBefore": 1.911
+      }
+    },
+    {
+      "kind": "photo",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 81,
+        "rightPaper": 187,
+        "ink": 81
+      },
+      "webBefore": {
+        "leftPaper": 67,
+        "rightPaper": 205,
+        "ink": 67
+      },
+      "webAfter": {
+        "leftPaper": 67,
+        "rightPaper": 205,
+        "ink": 67
+      },
+      "opencvBefore": {
+        "leftPaper": 85,
+        "rightPaper": 189,
+        "ink": 85
+      },
+      "opencvAfter": {
+        "leftPaper": 82,
+        "rightPaper": 189,
+        "ink": 82
+      },
+      "timingMs": {
+        "webBefore": 4.908,
+        "webAfter": 11.418,
+        "cpp": 3.311,
+        "opencv": 5.494,
+        "opencvBefore": 12.823,
+        "cppBefore": 1.728
+      }
+    },
+    {
+      "kind": "inverse",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 23,
+        "rightPaper": 39,
+        "ink": 131
+      },
+      "webBefore": {
+        "leftPaper": 15,
+        "rightPaper": 34,
+        "ink": 142
+      },
+      "webAfter": {
+        "leftPaper": 15,
+        "rightPaper": 34,
+        "ink": 142
+      },
+      "opencvBefore": {
+        "leftPaper": 24,
+        "rightPaper": 41,
+        "ink": 133
+      },
+      "opencvAfter": {
+        "leftPaper": 24,
+        "rightPaper": 41,
+        "ink": 133
+      },
+      "timingMs": {
+        "webBefore": 4.423,
+        "webAfter": 8.965,
+        "cpp": 2.708,
+        "opencv": 7.721,
+        "opencvBefore": 6.776,
+        "cppBefore": 1.603
+      }
+    },
+    {
+      "kind": "flat",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 236,
+        "rightPaper": 236,
+        "ink": 40
+      },
+      "webBefore": {
+        "leftPaper": 242,
+        "rightPaper": 242,
+        "ink": 20
+      },
+      "webAfter": {
+        "leftPaper": 242,
+        "rightPaper": 242,
+        "ink": 20
+      },
+      "opencvBefore": {
+        "leftPaper": 236,
+        "rightPaper": 236,
+        "ink": 38
+      },
+      "opencvAfter": {
+        "leftPaper": 236,
+        "rightPaper": 236,
+        "ink": 38
+      },
+      "timingMs": {
+        "webBefore": 4.212,
+        "webAfter": 9.085,
+        "cpp": 2.891,
+        "opencv": 8.226,
+        "opencvBefore": 6.86,
+        "cppBefore": 1.7
+      }
+    },
+    {
+      "kind": "noisy",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "paperPolicy": {
+        "leftPaper": 81,
+        "rightPaper": 187,
+        "ink": 109
+      },
+      "webBefore": {
+        "leftPaper": 67,
+        "rightPaper": 205,
+        "ink": 104
+      },
+      "webAfter": {
+        "leftPaper": 67,
+        "rightPaper": 205,
+        "ink": 104
+      },
+      "opencvBefore": {
+        "leftPaper": 81,
+        "rightPaper": 191,
+        "ink": 107
+      },
+      "opencvAfter": {
+        "leftPaper": 81,
+        "rightPaper": 191,
+        "ink": 107
+      },
+      "timingMs": {
+        "webBefore": 4.58,
+        "webAfter": 10.97,
+        "cpp": 3.873,
+        "opencv": 5.208,
+        "opencvBefore": 4.968,
+        "cppBefore": 2.028
+      }
+    }
+  ],
+  "highResolution": {
+    "dimensions": {
+      "width": 1536,
+      "height": 2048
+    },
+    "parity": {
+      "max": 0,
+      "mean": 0,
+      "changed": 0
+    },
+    "timingMs": {
+      "webBefore": 37.618,
+      "webAfter": 174.836,
+      "cpp": 154.187,
+      "opencv": 231.722
+    }
+  }
+}

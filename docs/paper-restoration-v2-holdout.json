@@ -1,0 +1,454 @@
+{
+  "policy": "paper-v1",
+  "note": "Additional restoration stage only. Unpaired real samples have no objective quality score; synthetic masks allow paper/ink statistics. Desktop timing is informational.",
+  "records": [
+    {
+      "name": "development-faint",
+      "kind": "faint",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 26.739100000000008,
+      "paperBefore": {
+        "mean": 235.83203083181672,
+        "p10": 236,
+        "p90": 236
+      },
+      "paperAfter": {
+        "mean": 235.83203083181672,
+        "p10": 236,
+        "p90": 236
+      },
+      "inkBefore": {
+        "mean": 213.2625850340136,
+        "p10": 213,
+        "p90": 215
+      },
+      "inkAfter": {
+        "mean": 213.2625850340136,
+        "p10": 213,
+        "p90": 215
+      }
+    },
+    {
+      "name": "development-shadow",
+      "kind": "shadow",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0.6875535300925926,
+      "maximumDelta": 115,
+      "newlyClippedChannels": 0,
+      "ms": 135.4346,
+      "paperBefore": {
+        "mean": 145.6641781645749,
+        "p10": 115,
+        "p90": 176
+      },
+      "paperAfter": {
+        "mean": 229.28020995358855,
+        "p10": 218,
+        "p90": 233
+      },
+      "inkBefore": {
+        "mean": 33.83265306122449,
+        "p10": 27,
+        "p90": 40
+      },
+      "inkAfter": {
+        "mean": 40.03197278911565,
+        "p10": 39,
+        "p90": 43
+      }
+    },
+    {
+      "name": "development-uneven",
+      "kind": "uneven",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0.6875593171296296,
+      "maximumDelta": 107,
+      "newlyClippedChannels": 0,
+      "ms": 137.43650000000002,
+      "paperBefore": {
+        "mean": 164.05880148869312,
+        "p10": 144,
+        "p90": 189
+      },
+      "paperAfter": {
+        "mean": 232.0369182037444,
+        "p10": 231,
+        "p90": 233
+      },
+      "inkBefore": {
+        "mean": 38.74122448979592,
+        "p10": 34,
+        "p90": 45
+      },
+      "inkAfter": {
+        "mean": 40.28149659863946,
+        "p10": 39,
+        "p90": 44
+      }
+    },
+    {
+      "name": "development-noisy",
+      "kind": "noisy",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 64.11879999999996,
+      "paperBefore": {
+        "mean": 235.99392620767395,
+        "p10": 230,
+        "p90": 242
+      },
+      "paperAfter": {
+        "mean": 235.99392620767395,
+        "p10": 230,
+        "p90": 242
+      },
+      "inkBefore": {
+        "mean": 55.67219954648526,
+        "p10": 49,
+        "p90": 63
+      },
+      "inkAfter": {
+        "mean": 55.67219954648526,
+        "p10": 49,
+        "p90": 63
+      }
+    },
+    {
+      "name": "development-crisp",
+      "kind": "crisp",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 63.25849999999991,
+      "paperBefore": {
+        "mean": 245,
+        "p10": 245,
+        "p90": 245
+      },
+      "paperAfter": {
+        "mean": 245,
+        "p10": 245,
+        "p90": 245
+      },
+      "inkBefore": {
+        "mean": 20.80544217687075,
+        "p10": 20,
+        "p90": 24
+      },
+      "inkAfter": {
+        "mean": 20.80544217687075,
+        "p10": 20,
+        "p90": 24
+      }
+    },
+    {
+      "name": "development-color",
+      "kind": "color",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 132.67520000000002,
+      "paperBefore": {
+        "mean": 236,
+        "p10": 236,
+        "p90": 236
+      },
+      "paperAfter": {
+        "mean": 236,
+        "p10": 236,
+        "p90": 236
+      },
+      "inkBefore": {
+        "mean": 55.64421768707483,
+        "p10": 55,
+        "p90": 58
+      },
+      "inkAfter": {
+        "mean": 55.64421768707483,
+        "p10": 55,
+        "p90": 58
+      }
+    },
+    {
+      "name": "development-underexposed",
+      "kind": "underexposed",
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 4.635999999999967,
+      "paperBefore": {
+        "mean": 153,
+        "p10": 153,
+        "p90": 153
+      },
+      "paperAfter": {
+        "mean": 153,
+        "p10": 153,
+        "p90": 153
+      },
+      "inkBefore": {
+        "mean": 36.380272108843535,
+        "p10": 36,
+        "p90": 38
+      },
+      "inkAfter": {
+        "mean": 36.380272108843535,
+        "p10": 36,
+        "p90": 38
+      }
+    },
+    {
+      "name": "holdout-faint",
+      "kind": "faint",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 31.488900000000058,
+      "paperBefore": {
+        "mean": 235.8144470571309,
+        "p10": 236,
+        "p90": 236
+      },
+      "paperAfter": {
+        "mean": 235.8144470571309,
+        "p10": 236,
+        "p90": 236
+      },
+      "inkBefore": {
+        "mean": 212.16822429906543,
+        "p10": 210,
+        "p90": 214
+      },
+      "inkAfter": {
+        "mean": 212.16822429906543,
+        "p10": 210,
+        "p90": 214
+      }
+    },
+    {
+      "name": "holdout-shadow",
+      "kind": "shadow",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0.8821120835590466,
+      "maximumDelta": 111,
+      "newlyClippedChannels": 0,
+      "ms": 175.7267999999999,
+      "paperBefore": {
+        "mean": 169.81159882923671,
+        "p10": 120,
+        "p90": 220
+      },
+      "paperAfter": {
+        "mean": 230.11604674061118,
+        "p10": 228,
+        "p90": 232
+      },
+      "inkBefore": {
+        "mean": 40.36364688521744,
+        "p10": 29,
+        "p90": 52
+      },
+      "inkAfter": {
+        "mean": 40.432018749457484,
+        "p10": 39,
+        "p90": 43
+      }
+    },
+    {
+      "name": "holdout-uneven",
+      "kind": "uneven",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0.8853210912107259,
+      "maximumDelta": 102,
+      "newlyClippedChannels": 0,
+      "ms": 49.62660000000005,
+      "paperBefore": {
+        "mean": 164.35814386360877,
+        "p10": 144,
+        "p90": 189
+      },
+      "paperAfter": {
+        "mean": 231.91438231446054,
+        "p10": 231,
+        "p90": 233
+      },
+      "inkBefore": {
+        "mean": 38.93223575706721,
+        "p10": 34,
+        "p90": 45
+      },
+      "inkAfter": {
+        "mean": 40.061890570296,
+        "p10": 39,
+        "p90": 42
+      }
+    },
+    {
+      "name": "holdout-noisy",
+      "kind": "noisy",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 14.975599999999986,
+      "paperBefore": {
+        "mean": 236.00497934079374,
+        "p10": 230,
+        "p90": 242
+      },
+      "paperAfter": {
+        "mean": 236.00497934079374,
+        "p10": 230,
+        "p90": 242
+      },
+      "inkBefore": {
+        "mean": 55.65892190619484,
+        "p10": 49,
+        "p90": 63
+      },
+      "inkAfter": {
+        "mean": 55.65892190619484,
+        "p10": 49,
+        "p90": 63
+      }
+    },
+    {
+      "name": "holdout-crisp",
+      "kind": "crisp",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 12.573499999999967,
+      "paperBefore": {
+        "mean": 245,
+        "p10": 245,
+        "p90": 245
+      },
+      "paperAfter": {
+        "mean": 245,
+        "p10": 245,
+        "p90": 245
+      },
+      "inkBefore": {
+        "mean": 20.865860362836724,
+        "p10": 20,
+        "p90": 24
+      },
+      "inkAfter": {
+        "mean": 20.865860362836724,
+        "p10": 20,
+        "p90": 24
+      }
+    },
+    {
+      "name": "holdout-color",
+      "kind": "color",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 13.230199999999968,
+      "paperBefore": {
+        "mean": 236,
+        "p10": 236,
+        "p90": 236
+      },
+      "paperAfter": {
+        "mean": 236,
+        "p10": 236,
+        "p90": 236
+      },
+      "inkBefore": {
+        "mean": 55.695437053326,
+        "p10": 55,
+        "p90": 59
+      },
+      "inkAfter": {
+        "mean": 55.695437053326,
+        "p10": 55,
+        "p90": 59
+      }
+    },
+    {
+      "name": "holdout-underexposed",
+      "kind": "underexposed",
+      "dimensions": {
+        "width": 832,
+        "height": 1136
+      },
+      "changedFraction": 0,
+      "maximumDelta": 0,
+      "newlyClippedChannels": 0,
+      "ms": 2.9115999999999076,
+      "paperBefore": {
+        "mean": 153,
+        "p10": 153,
+        "p90": 153
+      },
+      "paperAfter": {
+        "mean": 153,
+        "p10": 153,
+        "p90": 153
+      },
+      "inkBefore": {
+        "mean": 36.415063221550305,
+        "p10": 36,
+        "p90": 38
+      },
+      "inkAfter": {
+        "mean": 36.415063221550305,
+        "p10": 36,
+        "p90": 38
+      }
+    }
+  ]
+}

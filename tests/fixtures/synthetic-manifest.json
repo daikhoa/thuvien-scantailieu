@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "dataset": {
+    "id": "clonecamscanner-synthetic-smoke",
+    "revision": "clonecamscanner-synthetic-raster-v1",
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "split": "synthetic",
+    "coordinateSpace": "original-image-pixels"
+  },
+  "fixtures": [
+    {
+      "id": "synthetic-flat-document",
+      "image": {
+        "path": "synthetic/flat-document.png",
+        "sha256": "2a1b85c97e735d6d06ff53c19735cc511661bdad19effb49a51f8de3fef5df5f",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 640,
+          "height": 480
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 96,
+            "y": 72
+          },
+          {
+            "x": 544,
+            "y": 72
+          },
+          {
+            "x": 544,
+            "y": 408
+          },
+          {
+            "x": 96,
+            "y": 408
+          }
+        ]
+      },
+      "contentRiskTags": ["table", "small-text"],
+      "provenance": {
+        "kind": "synthetic",
+        "generator": "clonecamscanner-synthetic-raster-v1",
+        "licenseSpdx": "CC0-1.0",
+        "repoRedistributable": true,
+        "approvalRef": "project-owned-deterministic-synthetic-fixture"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Programmatically generated pixels; no person or real document source used"
+      }
+    },
+    {
+      "id": "synthetic-perspective-document",
+      "image": {
+        "path": "synthetic/perspective-document.png",
+        "sha256": "dd7d7bf820edde1509588db65ca6eb02168fe7e71729fbcfb28db506092a45f7",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 640,
+          "height": 480
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 120,
+            "y": 50
+          },
+          {
+            "x": 560,
+            "y": 110
+          },
+          {
+            "x": 500,
+            "y": 420
+          },
+          {
+            "x": 75,
+            "y": 360
+          }
+        ]
+      },
+      "contentRiskTags": ["small-text", "colored-mark"],
+      "provenance": {
+        "kind": "synthetic",
+        "generator": "clonecamscanner-synthetic-raster-v1",
+        "licenseSpdx": "CC0-1.0",
+        "repoRedistributable": true,
+        "approvalRef": "project-owned-deterministic-synthetic-fixture"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Programmatically generated pixels; no person or real document source used"
+      }
+    },
+    {
+      "id": "synthetic-no-document-room",
+      "image": {
+        "path": "synthetic/no-document-room.png",
+        "sha256": "91af3958dc30db2d4c34336390228ddbd663b3a9f8ac96f08f68f4601381f168",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 640,
+          "height": 480
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "no-document",
+        "geometryEligible": false
+      },
+      "contentRiskTags": [],
+      "provenance": {
+        "kind": "synthetic",
+        "generator": "clonecamscanner-synthetic-raster-v1",
+        "licenseSpdx": "CC0-1.0",
+        "repoRedistributable": true,
+        "approvalRef": "project-owned-deterministic-synthetic-fixture"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Programmatically generated pixels; no person or real document source used"
+      }
+    },
+    {
+      "id": "synthetic-no-document-clutter",
+      "image": {
+        "path": "synthetic/no-document-clutter.png",
+        "sha256": "2266667ca4f8d8ba2dce26259df1f698b6d61721e233185c3ff5b34b74f21e0e",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 640,
+          "height": 480
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "no-document",
+        "geometryEligible": false
+      },
+      "contentRiskTags": ["illustration"],
+      "provenance": {
+        "kind": "synthetic",
+        "generator": "clonecamscanner-synthetic-raster-v1",
+        "licenseSpdx": "CC0-1.0",
+        "repoRedistributable": true,
+        "approvalRef": "project-owned-deterministic-synthetic-fixture"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Programmatically generated pixels; no person or real document source used"
+      }
+    }
+  ]
+}

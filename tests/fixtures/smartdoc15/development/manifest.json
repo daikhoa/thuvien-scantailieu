@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "dataset": {
+    "id": "smartdoc15-sample-development",
+    "revision": "10.5281/zenodo.1230218-preview-960-v1",
+    "createdAt": "2026-10-12T00:00:00.000Z",
+    "split": "development",
+    "coordinateSpace": "original-image-pixels"
+  },
+  "fixtures": [
+    {
+      "id": "smartdoc15-datasheet001-frame-0001",
+      "image": {
+        "path": "images/smartdoc15-datasheet001-frame-0001.png",
+        "sha256": "bae0d929039e97c540725befb76d9d8e9675cee42b0e8023c631fed3ca80a3fe",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 368.6885,
+            "y": 100.6915
+          },
+          {
+            "x": 590.355,
+            "y": 99.5635
+          },
+          {
+            "x": 629.51,
+            "y": 395.971
+          },
+          {
+            "x": 358.3125,
+            "y": 402.8045
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "table",
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-datasheet001-frame-0054",
+      "image": {
+        "path": "images/smartdoc15-datasheet001-frame-0054.png",
+        "sha256": "2c13ba5ec0ac17509db5b9454be4b21717cb2bb0456f556c1d480921c19d0a1a",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 369.2055,
+            "y": 103.0785
+          },
+          {
+            "x": 585.145,
+            "y": 97.2665
+          },
+          {
+            "x": 618.15,
+            "y": 382.082
+          },
+          {
+            "x": 353.0195,
+            "y": 390.271
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "table",
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-datasheet001-frame-0108",
+      "image": {
+        "path": "images/smartdoc15-datasheet001-frame-0108.png",
+        "sha256": "d93934bc87456b8a5de1e0659f8ea81ed793053de3e0efd9dac6d257bd055b46",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 334.6495,
+            "y": 83.0405
+          },
+          {
+            "x": 542.7,
+            "y": 73.0345
+          },
+          {
+            "x": 597.975,
+            "y": 329.138
+          },
+          {
+            "x": 342.7675,
+            "y": 350.0865
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "table",
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-datasheet001-frame-0161",
+      "image": {
+        "path": "images/smartdoc15-datasheet001-frame-0161.png",
+        "sha256": "5db93cf65d41da2c92d49cf88d2d99f75983822b97a7743e83972256a6965f37",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 391.6605,
+            "y": 123.2325
+          },
+          {
+            "x": 602.81,
+            "y": 120.0045
+          },
+          {
+            "x": 639.5,
+            "y": 409.5
+          },
+          {
+            "x": 388.185,
+            "y": 416.866
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "table",
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-datasheet001-frame-0214",
+      "image": {
+        "path": "images/smartdoc15-datasheet001-frame-0214.png",
+        "sha256": "f57c9b17b27337adb9c3cf54b3ec747f85b7c28bcaaf359ecb4d9a1f88883186",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 369.411,
+            "y": 141.2875
+          },
+          {
+            "x": 572.355,
+            "y": 140.4595
+          },
+          {
+            "x": 600.025,
+            "y": 415.832
+          },
+          {
+            "x": 353.991,
+            "y": 419.688
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "table",
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-letter001-frame-0001",
+      "image": {
+        "path": "images/smartdoc15-letter001-frame-0001.png",
+        "sha256": "e4adf802f6bcab75886183be81b24e427c2be3166c3315f92291adb5aa4ee2f2",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 349.1505,
+            "y": 111.9845
+          },
+          {
+            "x": 563.555,
+            "y": 112.824
+          },
+          {
+            "x": 608.445,
+            "y": 399.632
+          },
+          {
+            "x": 351.919,
+            "y": 410.9335
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-letter001-frame-0045",
+      "image": {
+        "path": "images/smartdoc15-letter001-frame-0045.png",
+        "sha256": "87dd0901e4c6b4f99d02384c7ade1d03889592dc333926ee6751e4196494c76e",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 298.008,
+            "y": 150.1485
+          },
+          {
+            "x": 494.828,
+            "y": 139.818
+          },
+          {
+            "x": 537.745,
+            "y": 383.302
+          },
+          {
+            "x": 294.499,
+            "y": 404.942
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-letter001-frame-0089",
+      "image": {
+        "path": "images/smartdoc15-letter001-frame-0089.png",
+        "sha256": "ee6972a77e30317bcbfac70ad9b93e5455d0a7f0028cf42e4b23c3ab4421e2e5",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 331.8735,
+            "y": 153.3215
+          },
+          {
+            "x": 521.59,
+            "y": 132.131
+          },
+          {
+            "x": 604.71,
+            "y": 361.579
+          },
+          {
+            "x": 375.8,
+            "y": 400.9465
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-letter001-frame-0132",
+      "image": {
+        "path": "images/smartdoc15-letter001-frame-0132.png",
+        "sha256": "b7c61b5f38dd9c0c09bb2dc0051ec68d4d25b7da1420c4f52ca9b287da574f7a",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 358.101,
+            "y": 124.4305
+          },
+          {
+            "x": 550.53,
+            "y": 118.1815
+          },
+          {
+            "x": 585.965,
+            "y": 369.358
+          },
+          {
+            "x": 357.1555,
+            "y": 381.1985
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    },
+    {
+      "id": "smartdoc15-letter001-frame-0176",
+      "image": {
+        "path": "images/smartdoc15-letter001-frame-0176.png",
+        "sha256": "387f021bddbe0564b09c03bd08404c9d3087ecf779a8684fb633d4bc6f0b09bf",
+        "mimeType": "image/png",
+        "dimensions": {
+          "width": 960,
+          "height": 540
+        },
+        "exifOrientationApplied": true
+      },
+      "label": {
+        "kind": "document",
+        "geometryEligible": true,
+        "corners": [
+          {
+            "x": 320.8505,
+            "y": 148.0895
+          },
+          {
+            "x": 516.18,
+            "y": 123.716
+          },
+          {
+            "x": 588.975,
+            "y": 373.494
+          },
+          {
+            "x": 357.744,
+            "y": 412.9245
+          }
+        ]
+      },
+      "contentRiskTags": [
+        "small-text"
+      ],
+      "provenance": {
+        "kind": "licensed",
+        "licenseSpdx": "CC-BY-4.0",
+        "repoRedistributable": true,
+        "sourceUri": "https://zenodo.org/records/1230218",
+        "sourceRevision": "10.5281/zenodo.1230218",
+        "acquiredAt": "2026-10-12T00:00:00.000Z",
+        "attribution": "ICDAR2015 SmartDoc Challenge 1; Burie, Chazalon, Coustaty, Eskenazi, Luqman, Mehri, Nayef, Ogier, Prum and Rusinol.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "approvalRef": "project-owner-approved-smartdoc15-source-2026-10-12"
+      },
+      "privacy": {
+        "containsPersonalData": false,
+        "repoApproved": true,
+        "sanitization": "Official benchmark sample built from public document models; selected frames contain no real identity or personal record."
+      }
+    }
+  ]
+}

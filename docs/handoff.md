@@ -1,0 +1,7 @@
+# Handoff
+
+Implemented a separate C++17 native library in this directory. The sibling web remains independent; both now default new pages to enhanced color. Public ABI v1 is in `include/docscan/docscan.h`; Windows x64 Release runtime is in `dist/docscan-win-x64.zip`. Reuse an engine across documents. Guard ONNX API27 before Env construction via manual init; incompatible host runtime returns status5. Package all dependent DLLs beside the host EXE. Source contains no bot/OCR/HTTP layer and has no runtime dependency on the web.
+
+Keep `docs/architecture.md` ownership/thread/resource contracts when adding language bindings. Model files are pinned and validated; crop input coordinates are normalized **after EXIF upright orientation**. Preserve pixel/PDF regression tests before changing geometry/filters/JPEG behavior. Default appearance filter ENHANCED_COLOR (Python inherits native default; explicit AUTO still supported), automatic corner crop unchanged. Default max output 3000, configurable through8192; quality96 and4:4:4; PDF embeds JPEG verbatim. Sources above64MiB and48MP are tested within explicit resource limits.
+
+Verification and honest limits: `docs/verification.md`. Current gaps are native HEIF/AVIF/RAW and ICC/HDR handling, non-Windows build/runtime verification, deeper cancellation/concurrency stress and future web/WASM adapter. Do not replace the web pipeline silently; integration was explicitly deferred by the owner. The enhanced-default change updates the web independently; it does not integrate this native library.

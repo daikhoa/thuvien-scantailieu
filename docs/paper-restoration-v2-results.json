@@ -1,0 +1,298 @@
+{
+  "schema": 2,
+  "policy": "paper-v2",
+  "baseline": "f331cf7 / WASM v6",
+  "note": "Desktop Node processing/copies; median of five warm runs after two warmups. Not phone heat, power or end-to-end codecs. Private photos excluded.",
+  "wasmSha256": "2c152aa785041e7f90e47ea81d35463fdb845de5cc3f5c79d363debde6c39166",
+  "wasmBytes": 680943,
+  "records": [
+    {
+      "kind": "white",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 21.056,
+        "webAfter": 26.681,
+        "cppBefore": 11.309,
+        "cppAfter": 14.354
+      }
+    },
+    {
+      "kind": "warm",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 19.927,
+        "webAfter": 25.071,
+        "cppBefore": 11.995,
+        "cppAfter": 14.433
+      }
+    },
+    {
+      "kind": "colored",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 9.962,
+        "webAfter": 9.109,
+        "cppBefore": 3.007,
+        "cppAfter": 2.957
+      }
+    },
+    {
+      "kind": "pastel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 12.793,
+        "webAfter": 10.618,
+        "cppBefore": 3.371,
+        "cppAfter": 3.323
+      }
+    },
+    {
+      "kind": "gray-panel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 16.403,
+        "webAfter": 24.497,
+        "cppBefore": 10.161,
+        "cppAfter": 12.033
+      }
+    },
+    {
+      "kind": "gray-sidebar",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 15.676,
+        "webAfter": 22.149,
+        "cppBefore": 8.685,
+        "cppAfter": 10.608
+      }
+    },
+    {
+      "kind": "color-panel",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 16.732,
+        "webAfter": 24.265,
+        "cppBefore": 9.546,
+        "cppAfter": 11.65
+      }
+    },
+    {
+      "kind": "photo",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 11.656,
+        "webAfter": 11.303,
+        "cppBefore": 3.23,
+        "cppAfter": 3.268
+      }
+    },
+    {
+      "kind": "inverse",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 8.746,
+        "webAfter": 9.663,
+        "cppBefore": 2.996,
+        "cppAfter": 2.782
+      }
+    },
+    {
+      "kind": "flat",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 9.213,
+        "webAfter": 16.181,
+        "cppBefore": 2.709,
+        "cppAfter": 4.984
+      }
+    },
+    {
+      "kind": "noisy",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 10.292,
+        "webAfter": 10.277,
+        "cppBefore": 3.169,
+        "cppAfter": 3.153
+      }
+    },
+    {
+      "kind": "crease",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": {
+        "input": 142,
+        "before": 136,
+        "after": 227
+      },
+      "timingMs": {
+        "webBefore": 9.132,
+        "webAfter": 23.965,
+        "cppBefore": 2.588,
+        "cppAfter": 12.207
+      }
+    },
+    {
+      "kind": "vertical-crease",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": {
+        "input": 142,
+        "before": 136,
+        "after": 227
+      },
+      "timingMs": {
+        "webBefore": 9.404,
+        "webAfter": 24.813,
+        "cppBefore": 2.755,
+        "cppAfter": 12.392
+      }
+    },
+    {
+      "kind": "diagonal-crease",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": {
+        "input": 144,
+        "before": 138,
+        "after": 231
+      },
+      "timingMs": {
+        "webBefore": 9.298,
+        "webAfter": 24.445,
+        "cppBefore": 2.822,
+        "cppAfter": 12.886
+      }
+    },
+    {
+      "kind": "faint-crease",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": {
+        "input": 142,
+        "before": 133,
+        "after": 227
+      },
+      "timingMs": {
+        "webBefore": 9.139,
+        "webAfter": 24.118,
+        "cppBefore": 2.796,
+        "cppAfter": 12.574
+      }
+    },
+    {
+      "kind": "printed-band",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 9.189,
+        "webAfter": 17.377,
+        "cppBefore": 2.791,
+        "cppAfter": 4.932
+      }
+    },
+    {
+      "kind": "printed-column",
+      "parity": {
+        "max": 0,
+        "mean": 0,
+        "changed": 0
+      },
+      "shadow": null,
+      "timingMs": {
+        "webBefore": 9.856,
+        "webAfter": 16.894,
+        "cppBefore": 3.002,
+        "cppAfter": 4.895
+      }
+    }
+  ],
+  "highResolution": {
+    "dimensions": {
+      "width": 1536,
+      "height": 2048
+    },
+    "parity": {
+      "max": 0,
+      "mean": 0,
+      "changed": 0
+    },
+    "timingMs": {
+      "webBefore": 36.641,
+      "webAfter": 172.427,
+      "cppBefore": 19.858,
+      "cppAfter": 144.281
+    }
+  }
+}

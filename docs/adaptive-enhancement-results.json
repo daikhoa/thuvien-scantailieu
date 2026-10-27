@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "date": "2026-10-26",
+  "protocol": "Local Tesseract.js 6.0.1, tessdata_fast vie+eng, PSM AUTO, fixed manually reviewed crop and orientation. A selected phrase is recovered if best-substring normalized edit distance <=0.20. This is phrase coverage, not whole-page OCR accuracy. Native output is JPEG from original sources; Web output is PNG from common cropped decoded baseline. Codec/input differences prevent attributing Web/native OCR differences to the kernel.",
+  "scope": "10 supplied originals; no source photos or OCR transcripts included; no cloud OCR",
+  "cases": [
+    {
+      "image": 1,
+      "anchors": 7,
+      "raw": 3,
+      "previous": 1,
+      "webV6": 4,
+      "nativeV6": 5
+    },
+    {
+      "image": 2,
+      "anchors": 7,
+      "raw": 4,
+      "previous": 2,
+      "webV6": 5,
+      "nativeV6": 5
+    },
+    {
+      "image": 3,
+      "anchors": 7,
+      "raw": 3,
+      "previous": 7,
+      "webV6": 7,
+      "nativeV6": 7
+    },
+    {
+      "image": 4,
+      "anchors": 6,
+      "raw": 4,
+      "previous": 4,
+      "webV6": 4,
+      "nativeV6": 4
+    },
+    {
+      "image": 5,
+      "anchors": 7,
+      "raw": 5,
+      "previous": 5,
+      "webV6": 4,
+      "nativeV6": 7
+    },
+    {
+      "image": 6,
+      "anchors": 5,
+      "raw": 2,
+      "previous": 2,
+      "webV6": 2,
+      "nativeV6": 2
+    },
+    {
+      "image": 7,
+      "anchors": 6,
+      "raw": 2,
+      "previous": 0,
+      "webV6": 2,
+      "nativeV6": 3
+    },
+    {
+      "image": 8,
+      "anchors": 5,
+      "raw": 3,
+      "previous": 2,
+      "webV6": 2,
+      "nativeV6": 2
+    },
+    {
+      "image": 9,
+      "anchors": 5,
+      "raw": 1,
+      "previous": 1,
+      "webV6": 0,
+      "nativeV6": 0
+    },
+    {
+      "image": 10,
+      "anchors": 6,
+      "raw": 1,
+      "previous": 1,
+      "webV6": 3,
+      "nativeV6": 4
+    }
+  ],
+  "pixelParity": {
+    "webVsCppWasm": "10/10 identical RGBA outputs with common samples and illumination fields; max channel delta 0",
+    "nativeGolden": "Four synthetic controls max channel delta <=1",
+    "detection": "Manual crop/orientation frozen to isolate appearance; not an automatic detector qualification"
+  },
+  "limitations": [
+    "Glossy cover glare and lost ink are not restored.",
+    "Image 9 phrase coverage regresses; preserve color rather than invent missing content.",
+    "Small text, formulas, diagrams, handwriting and grid patterns still need OCR-specific validation.",
+    "Desktop timings do not establish phone temperature, energy or iOS/Android compatibility."
+  ]
+}

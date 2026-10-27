@@ -1,0 +1,11 @@
+white
+warm
+colored
+pastel
+gray-panel
+gray-sidebar
+color-panel
+photo
+inverse
+flat
+noisy

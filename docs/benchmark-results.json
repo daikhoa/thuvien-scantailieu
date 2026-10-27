@@ -1,0 +1,456 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "notes": "Release, CPU, one ORT thread; source decode full resolution, output max3000. Timings include ctypes copy and PDF. RSS snapshots are not peak memory. Warm median excludes first call. No JS/phone comparison.",
+  "results": [
+    {
+      "source": [
+        4000,
+        3000
+      ],
+      "filter": 0,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 571848,
+      "pdf_bytes": 572538,
+      "warm_median_ms": 247.23,
+      "samples": [
+        {
+          "total_ms": 249.44,
+          "decode_ms": 43.08,
+          "analyze_ms": 0.0,
+          "warp_ms": 148.37,
+          "filter_ms": 0.01,
+          "encode_ms": 56.57,
+          "rss_before_mib": 60.9,
+          "rss_after_mib": 63.8
+        },
+        {
+          "total_ms": 253.29,
+          "decode_ms": 39.25,
+          "analyze_ms": 0.0,
+          "warp_ms": 150.61,
+          "filter_ms": 0.0,
+          "encode_ms": 61.9,
+          "rss_before_mib": 63.8,
+          "rss_after_mib": 63.3
+        },
+        {
+          "total_ms": 247.23,
+          "decode_ms": 42.04,
+          "analyze_ms": 0.0,
+          "warp_ms": 146.4,
+          "filter_ms": 0.0,
+          "encode_ms": 57.21,
+          "rss_before_mib": 60.1,
+          "rss_after_mib": 63.6
+        },
+        {
+          "total_ms": 244.29,
+          "decode_ms": 40.43,
+          "analyze_ms": 0.0,
+          "warp_ms": 146.27,
+          "filter_ms": 0.0,
+          "encode_ms": 55.92,
+          "rss_before_mib": 60.1,
+          "rss_after_mib": 63.2
+        }
+      ]
+    },
+    {
+      "source": [
+        4000,
+        3000
+      ],
+      "filter": 1,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 571848,
+      "pdf_bytes": 572538,
+      "warm_median_ms": 254.59,
+      "samples": [
+        {
+          "total_ms": 259.54,
+          "decode_ms": 38.2,
+          "analyze_ms": 12.85,
+          "warp_ms": 145.3,
+          "filter_ms": 0.01,
+          "encode_ms": 61.24,
+          "rss_before_mib": 60.1,
+          "rss_after_mib": 65.4
+        },
+        {
+          "total_ms": 262.62,
+          "decode_ms": 39.59,
+          "analyze_ms": 12.17,
+          "warp_ms": 149.93,
+          "filter_ms": 0.0,
+          "encode_ms": 59.47,
+          "rss_before_mib": 63.0,
+          "rss_after_mib": 68.0
+        },
+        {
+          "total_ms": 254.22,
+          "decode_ms": 38.45,
+          "analyze_ms": 11.95,
+          "warp_ms": 147.79,
+          "filter_ms": 0.0,
+          "encode_ms": 54.85,
+          "rss_before_mib": 68.0,
+          "rss_after_mib": 67.5
+        },
+        {
+          "total_ms": 254.59,
+          "decode_ms": 39.45,
+          "analyze_ms": 11.17,
+          "warp_ms": 148.31,
+          "filter_ms": 0.0,
+          "encode_ms": 54.24,
+          "rss_before_mib": 67.5,
+          "rss_after_mib": 69.2
+        }
+      ]
+    },
+    {
+      "source": [
+        4000,
+        3000
+      ],
+      "filter": 2,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 571848,
+      "pdf_bytes": 572538,
+      "warm_median_ms": 248.07,
+      "samples": [
+        {
+          "total_ms": 256.68,
+          "decode_ms": 40.54,
+          "analyze_ms": 9.18,
+          "warp_ms": 149.89,
+          "filter_ms": 0.0,
+          "encode_ms": 55.96,
+          "rss_before_mib": 69.2,
+          "rss_after_mib": 68.8
+        },
+        {
+          "total_ms": 246.42,
+          "decode_ms": 39.78,
+          "analyze_ms": 8.69,
+          "warp_ms": 141.4,
+          "filter_ms": 0.0,
+          "encode_ms": 55.15,
+          "rss_before_mib": 68.8,
+          "rss_after_mib": 68.1
+        },
+        {
+          "total_ms": 248.07,
+          "decode_ms": 38.51,
+          "analyze_ms": 8.56,
+          "warp_ms": 142.49,
+          "filter_ms": 0.0,
+          "encode_ms": 57.18,
+          "rss_before_mib": 68.1,
+          "rss_after_mib": 68.1
+        },
+        {
+          "total_ms": 248.85,
+          "decode_ms": 40.32,
+          "analyze_ms": 8.94,
+          "warp_ms": 142.86,
+          "filter_ms": 0.0,
+          "encode_ms": 55.41,
+          "rss_before_mib": 68.1,
+          "rss_after_mib": 67.5
+        }
+      ]
+    },
+    {
+      "source": [
+        4000,
+        3000
+      ],
+      "filter": 4,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 556061,
+      "pdf_bytes": 556751,
+      "warm_median_ms": 406.4,
+      "samples": [
+        {
+          "total_ms": 403.82,
+          "decode_ms": 38.99,
+          "analyze_ms": 11.59,
+          "warp_ms": 143.3,
+          "filter_ms": 152.27,
+          "encode_ms": 56.45,
+          "rss_before_mib": 67.5,
+          "rss_after_mib": 68.6
+        },
+        {
+          "total_ms": 402.55,
+          "decode_ms": 38.21,
+          "analyze_ms": 11.34,
+          "warp_ms": 142.39,
+          "filter_ms": 152.84,
+          "encode_ms": 56.63,
+          "rss_before_mib": 68.6,
+          "rss_after_mib": 67.5
+        },
+        {
+          "total_ms": 408.4,
+          "decode_ms": 41.49,
+          "analyze_ms": 11.45,
+          "warp_ms": 144.17,
+          "filter_ms": 152.27,
+          "encode_ms": 57.47,
+          "rss_before_mib": 67.5,
+          "rss_after_mib": 69.1
+        },
+        {
+          "total_ms": 406.4,
+          "decode_ms": 39.74,
+          "analyze_ms": 11.92,
+          "warp_ms": 144.6,
+          "filter_ms": 151.55,
+          "encode_ms": 57.22,
+          "rss_before_mib": 69.1,
+          "rss_after_mib": 68.7
+        }
+      ]
+    },
+    {
+      "source": [
+        8000,
+        6000
+      ],
+      "filter": 0,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 740758,
+      "pdf_bytes": 741448,
+      "warm_median_ms": 367.33,
+      "samples": [
+        {
+          "total_ms": 366.6,
+          "decode_ms": 157.94,
+          "analyze_ms": 0.0,
+          "warp_ms": 149.75,
+          "filter_ms": 0.0,
+          "encode_ms": 56.46,
+          "rss_before_mib": 67.8,
+          "rss_after_mib": 71.5
+        },
+        {
+          "total_ms": 369.17,
+          "decode_ms": 158.76,
+          "analyze_ms": 0.0,
+          "warp_ms": 151.52,
+          "filter_ms": 0.0,
+          "encode_ms": 56.46,
+          "rss_before_mib": 70.8,
+          "rss_after_mib": 72.2
+        },
+        {
+          "total_ms": 364.93,
+          "decode_ms": 156.91,
+          "analyze_ms": 0.0,
+          "warp_ms": 148.53,
+          "filter_ms": 0.0,
+          "encode_ms": 57.15,
+          "rss_before_mib": 71.5,
+          "rss_after_mib": 72.3
+        },
+        {
+          "total_ms": 367.33,
+          "decode_ms": 158.29,
+          "analyze_ms": 0.0,
+          "warp_ms": 149.39,
+          "filter_ms": 0.0,
+          "encode_ms": 57.38,
+          "rss_before_mib": 71.5,
+          "rss_after_mib": 72.2
+        }
+      ]
+    },
+    {
+      "source": [
+        8000,
+        6000
+      ],
+      "filter": 1,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 740758,
+      "pdf_bytes": 741448,
+      "warm_median_ms": 572.16,
+      "samples": [
+        {
+          "total_ms": 574.51,
+          "decode_ms": 157.02,
+          "analyze_ms": 12.74,
+          "warp_ms": 149.97,
+          "filter_ms": 194.9,
+          "encode_ms": 57.88,
+          "rss_before_mib": 71.5,
+          "rss_after_mib": 72.3
+        },
+        {
+          "total_ms": 572.16,
+          "decode_ms": 156.55,
+          "analyze_ms": 12.63,
+          "warp_ms": 148.16,
+          "filter_ms": 195.93,
+          "encode_ms": 56.6,
+          "rss_before_mib": 71.6,
+          "rss_after_mib": 72.3
+        },
+        {
+          "total_ms": 572.03,
+          "decode_ms": 158.62,
+          "analyze_ms": 11.94,
+          "warp_ms": 147.12,
+          "filter_ms": 196.3,
+          "encode_ms": 55.72,
+          "rss_before_mib": 71.6,
+          "rss_after_mib": 72.3
+        },
+        {
+          "total_ms": 574.47,
+          "decode_ms": 158.17,
+          "analyze_ms": 12.41,
+          "warp_ms": 149.35,
+          "filter_ms": 195.93,
+          "encode_ms": 56.31,
+          "rss_before_mib": 71.6,
+          "rss_after_mib": 72.3
+        }
+      ]
+    },
+    {
+      "source": [
+        8000,
+        6000
+      ],
+      "filter": 2,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 839790,
+      "pdf_bytes": 840480,
+      "warm_median_ms": 382.31,
+      "samples": [
+        {
+          "total_ms": 384.98,
+          "decode_ms": 159.74,
+          "analyze_ms": 9.62,
+          "warp_ms": 149.76,
+          "filter_ms": 4.49,
+          "encode_ms": 58.99,
+          "rss_before_mib": 71.6,
+          "rss_after_mib": 71.9
+        },
+        {
+          "total_ms": 380.96,
+          "decode_ms": 157.12,
+          "analyze_ms": 9.93,
+          "warp_ms": 149.93,
+          "filter_ms": 5.4,
+          "encode_ms": 56.05,
+          "rss_before_mib": 71.0,
+          "rss_after_mib": 72.0
+        },
+        {
+          "total_ms": 382.31,
+          "decode_ms": 158.81,
+          "analyze_ms": 9.71,
+          "warp_ms": 149.41,
+          "filter_ms": 5.52,
+          "encode_ms": 56.43,
+          "rss_before_mib": 71.2,
+          "rss_after_mib": 73.0
+        },
+        {
+          "total_ms": 386.68,
+          "decode_ms": 157.91,
+          "analyze_ms": 9.26,
+          "warp_ms": 151.06,
+          "filter_ms": 5.64,
+          "encode_ms": 60.65,
+          "rss_before_mib": 72.1,
+          "rss_after_mib": 73.0
+        }
+      ]
+    },
+    {
+      "source": [
+        8000,
+        6000
+      ],
+      "filter": 4,
+      "output": [
+        3000,
+        2250
+      ],
+      "jpeg_bytes": 743284,
+      "pdf_bytes": 743974,
+      "warm_median_ms": 718.15,
+      "samples": [
+        {
+          "total_ms": 734.01,
+          "decode_ms": 166.03,
+          "analyze_ms": 12.33,
+          "warp_ms": 150.61,
+          "filter_ms": 342.84,
+          "encode_ms": 59.78,
+          "rss_before_mib": 72.1,
+          "rss_after_mib": 72.9
+        },
+        {
+          "total_ms": 718.15,
+          "decode_ms": 157.35,
+          "analyze_ms": 11.36,
+          "warp_ms": 148.09,
+          "filter_ms": 341.34,
+          "encode_ms": 57.9,
+          "rss_before_mib": 72.2,
+          "rss_after_mib": 72.9
+        },
+        {
+          "total_ms": 718.05,
+          "decode_ms": 157.98,
+          "analyze_ms": 12.02,
+          "warp_ms": 148.05,
+          "filter_ms": 341.48,
+          "encode_ms": 56.19,
+          "rss_before_mib": 72.2,
+          "rss_after_mib": 73.4
+        },
+        {
+          "total_ms": 718.52,
+          "decode_ms": 159.8,
+          "analyze_ms": 12.4,
+          "warp_ms": 148.65,
+          "filter_ms": 337.56,
+          "encode_ms": 57.58,
+          "rss_before_mib": 72.7,
+          "rss_after_mib": 72.1
+        }
+      ]
+    }
+  ]
+}

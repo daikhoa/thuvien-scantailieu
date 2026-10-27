@@ -1,0 +1,9 @@
+# Optional pretrained shadow filter
+
+Use `DS_FILTER_SHADOW_REMOVAL` (5) with the existing `ds_document_add_image` API. Set `model_directory` to the packaged models directory, including `gcnet-2eb69a0a.onnx` plus the existing corner/defect models. `DS_CAP_SHADOW_MODEL` (32) reports the optional checkpoint file is present. The session is lazy: creating an engine or using the existing filters does not load GCNet. The first AI call loads and validates it; later calls reuse it. Missing model returns DS_MODEL_UNAVAILABLE without adding a page. Cancel checks occur before/after bounded inference and during pixel application. All ABI structure sizes and old enum values are unchanged; the default remains enhanced-color.
+
+GCNet's trained illumination field runs at <=384 pixels, one ONNX Runtime CPU thread with spinning, arena and memory pattern disabled. Full-resolution BGR pixels are corrected in place, then contrast/detail is recalculated from corrected pixels. There is no full-resolution float image. The existing working budget includes a conservative 64 MiB allowance before starting the optional model; this is an admission estimate, not a hard process-RAM limit. The model path is trusted application configuration.
+
+This is the GCNet first stage of GCDRNet, not the DRNet RGB reconstruction stage. No training or weight conversion was performed. See models/GCNet-MODEL-CARD.md and licenses/GCDRNet-MIT.txt for pinned source/checkpoint. This opt-in filter can brighten colored paper and gray printed fills; keep the original and use the existing color filter when inappropriate. It does not dewarp curved paper. No phone power/thermal claim is made.
+
+Web comparison uses C++ WASM for crop and shared JavaScript/ONNX for this optional appearance stage; it is not a benchmark of native C++ ONNX inference. Native DLL uses ONNX Runtime directly in process.

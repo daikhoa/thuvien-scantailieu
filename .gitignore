@@ -1,0 +1,17 @@
+.deps/
+build*/
+dist/
+__pycache__/
+*.user
+node_modules/
+.venv/
+.codegraph/
+.tmp-*/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+.DS_Store
+Thumbs.db
