@@ -7,8 +7,6 @@ const SAFE_MESSAGES: Readonly<Record<PdfExportFailureCode, string>> = {
   'invalid-input': 'The PDF input is invalid.',
   failed: 'The PDF could not be created.',
 };
-const PDF_POINTS_PER_INCH = 72;
-const RENDERED_PIXELS_PER_INCH = 300;
 
 export class PdfExportError extends Error {
   override readonly name = 'PdfExportError';
@@ -39,7 +37,7 @@ function validatePage(page: ImageAsset): void {
   }
 }
 
-/** Creates image-only PDF pages at a consistent 300 PPI without stretching their ratios. */
+/** Fits each image inside an identical portrait A4 sheet without stretching or cropping. */
 export async function createImagePdf(
   pages: readonly ImageAsset[],
   signal: AbortSignal,
@@ -49,7 +47,7 @@ export async function createImagePdf(
   for (const page of pages) validatePage(page);
 
   try {
-    const { PDFDocument } = await import('pdf-lib');
+    const { PDFDocument, PageSizes, rgb } = await import('pdf-lib');
     checkAbort(signal);
     const document = await PDFDocument.create();
     document.setProducer('clonecamscanner');
@@ -62,10 +60,21 @@ export async function createImagePdf(
         source.blob.type === 'image/png'
           ? await document.embedPng(encoded)
           : await document.embedJpg(encoded);
-      const width = (source.dimensions.width * PDF_POINTS_PER_INCH) / RENDERED_PIXELS_PER_INCH;
-      const height = (source.dimensions.height * PDF_POINTS_PER_INCH) / RENDERED_PIXELS_PER_INCH;
-      const page = document.addPage([width, height]);
-      page.drawImage(image, { x: 0, y: 0, width, height });
+      const [sheetWidth, sheetHeight] = PageSizes.A4;
+      const scale = Math.min(
+        sheetWidth / source.dimensions.width,
+        sheetHeight / source.dimensions.height,
+      );
+      const width = source.dimensions.width * scale;
+      const height = source.dimensions.height * scale;
+      const page = document.addPage(PageSizes.A4);
+      page.drawRectangle({ width: sheetWidth, height: sheetHeight, color: rgb(1, 1, 1) });
+      page.drawImage(image, {
+        x: (sheetWidth - width) / 2,
+        y: (sheetHeight - height) / 2,
+        width,
+        height,
+      });
     }
     checkAbort(signal);
     const bytes = await document.save({ useObjectStreams: true, addDefaultPage: false });

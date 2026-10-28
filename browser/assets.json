@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "id": "78f36fa702c1",
-  "base": "/docscan-sdk/78f36fa702c1/",
+  "id": "5b8b70e000b8",
+  "base": "/docscan-sdk/5b8b70e000b8/",
   "sources": {
     "src/domain/document.ts": "bf07501144a7f9906cec4ea66ad7cb7193e1b3a8af4d877232d0455c2eab29de",
     "src/features/camera/camera-capture.ts": "9c2486bc69c7df6c4b5f2eab6f50e7246fb6b65dce09667be30445d0422eebdf",
@@ -9,7 +9,7 @@
     "src/features/camera/live-capture-crop.ts": "0d1373ff9bb8fdbf984318f53fb60301ade789c2806b4b37ec02c7e3ebd30178",
     "src/features/editor/detect-document-crop.ts": "d01ca1bf15c1cb56155faeec2e9bfcc4f723db9f8c83578cc6dca585858cc151",
     "src/features/editor/document-filters.ts": "a5f5c874a2b1f5c242e3b7b2329d6310b09c76e0bb8134c67190b42bed1aaa93",
-    "src/features/export/image-pdf.ts": "cfa9741b0ab018249875c90f47ba638f649e58191cea33c551c0b463be6fd16a",
+    "src/features/export/image-pdf.ts": "54dd64eb13c6ae2a0a6517dcf3c55f7f97b8361024295bab4996bc754d2e62e7",
     "src/features/scanner/background-page-processor.ts": "d8428c76965b3a7efd00bba19afab7cbc546598de6b6afbc17cdb2e024485994",
     "src/features/scanner/detection-scheduler.ts": "58409af6474a050c1df3602ff27a02f3fb8d4dda64f14fff386e6baa4578a233",
     "src/features/scanner/image-asset-frame-source.ts": "363959d8bfef1b95210a3ba408882019eb3ff4a4f1058d2ce86a92159a1b5ff7",

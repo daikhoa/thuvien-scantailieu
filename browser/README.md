@@ -24,6 +24,8 @@ try {
 rotation and an onOriginal callback. `render(original, recipe)` reapplies edits
 without requiring the caller to run models. All image work stays on the device.
 The default is selective enhanced-color with honest model failure metadata.
+PDF export uses identical portrait A4 sheets (210 × 297 mm). Each image fits
+inside the sheet, centered on white without cropping or changing its aspect ratio.
 
 For existing live-camera UIs, `createScannerEngine()` supplies detection and
 render operations with the same owned runtime. `internal/*` exports are an

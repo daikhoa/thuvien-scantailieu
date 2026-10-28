@@ -1,6 +1,6 @@
 {
   "name": "@docscan/browser",
-  "version": "0.2.0-78f36fa702c1",
+  "version": "0.2.0-5b8b70e000b8",
   "type": "module",
   "description": "Local document scanning SDK: detection, C++ raster processing, shadow models and PDF.",
   "exports": {
